@@ -1,0 +1,118 @@
+<div class="sites justify-content text-center" id="sites">
+    <div class="">
+
+        <h2>Sites</h2>
+        <p>Tools for help me </p>
+
+    </div>
+</div>
+<div class="form-group justify-center text-center">
+    <div class="search">
+        <input type="text" class="form-control" id="inputName" placeholder="Enter Name of site" [(ngModel)]="searchData">
+    </div>
+</div>
+
+<ngb-accordion [closeOthers]="true" activeIds="static-1">
+
+    <ngb-panel id="static-1" title="Learning">
+
+        <ng-template ngbPanelContent>
+            <ul type="none">
+
+                <li *ngFor="let item of learningOne|filter:searchData">
+                    <a href="{{item.url}}" class="site-link" target="_blank" title="{{item.describe}}">
+                        <i class="{{item.icon}}"></i>
+                        <span>
+                          {{item.title}}
+
+        </span>
+                    </a>
+                </li>
+
+
+            </ul>
+            <ul type="none">
+
+                <li *ngFor="let item of learningTwo|filter:searchData">
+                    <a href="{{item.url}}" class="site-link" target="_blank" title="{{item.describe}}">
+                        <i class="{{item.icon}}"></i>
+                        <span>
+                        {{item.title}}
+
+      </span>
+                    </a>
+                </li>
+
+
+            </ul>
+            <ul type="none">
+
+                <li *ngFor="let item of learningThree|filter:searchData">
+                    <a href="{{item.url}}" class="site-link" target="_blank" title="{{item.describe}}">
+                        <i class="{{item.icon}}"></i>
+                        <span>
+                      {{item.title}}
+
+    </span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel id="static-2" title="Editors">
+        <ng-template ngbPanelContent>
+            <ul type="none">
+
+                <li *ngFor="let item of editors|filter:searchData">
+                    <a href="{{item.url}}" class="site-link" target="_blank" title="{{item.describe}}">
+                        <i class="{{item.icon}}"></i>
+                        <span>
+                    {{item.title}}
+
+  </span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel id="static-3" title="Youtube Channels">
+        <ng-template ngbPanelContent>
+            <ul type="none">
+
+                <li *ngFor="let item of youtube|filter:searchData">
+                    <a href="{{item.url}}" class="site-link" target="_blank" title="{{item.describe}}">
+                        <i class="{{item.icon}}"></i>
+                        <span>
+                    {{item.title}}
+
+  </span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel id="static-4" title="API">
+        <ng-template ngbPanelContent>
+            <ul type="none">
+
+                <li *ngFor="let item of API|filter:searchData">
+                    <a href="{{item.url}}" class="site-link" target="_blank" title="{{item.describe}}">
+                        <i class="{{item.icon}}"></i>
+                        <span>
+                    {{item.title}}
+
+  </span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </ng-template>
+    </ngb-panel>
+</ngb-accordion>

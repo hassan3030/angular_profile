@@ -1,0 +1,14 @@
+footer {
+    background: #2b2b2b;
+    color: #ddd;
+    padding: 50px 0 30px;
+}
+
+footer i {
+    color: #ddd;
+    margin: 5px;
+}
+
+footer i:hover {
+    color: #cadae2;
+}

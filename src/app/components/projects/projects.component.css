@@ -1,0 +1,64 @@
+.heading {
+    color: #b43737;
+    margin-top: 30px;
+}
+
+.heading div {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-delay: 0.5s;
+}
+
+.heading div:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-delay: 0.5s;
+}
+
+.row {
+    justify-content: center;
+}
+
+.card-body {
+    justify-content: center;
+}
+
+.btnCard {
+    margin: 10px;
+}
+
+.home {
+    margin-top: 20px
+}
+
+.home .card img {
+    height: 250px;
+}
+
+.goods-form {
+    margin-top: 25px;
+    text-align: center
+}
+
+.goods-form i {
+    color: #A55;
+}
+
+.goods-form h2 {
+    color: #aaa;
+}
+
+.container {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.home a {
+    margin: 20px;
+}

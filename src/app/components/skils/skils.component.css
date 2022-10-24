@@ -1,0 +1,65 @@
+.main-skills h2 {
+    color: #b43737
+}
+
+.main-skills {
+    margin: 30px;
+    margin-top: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.main-skills:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container .form-group {
+    margin: 10px;
+}
+
+.badge {
+    font-size: 25px;
+    font-weight: 200
+}
+
+.badge i {
+    font-size: 20px;
+    font-weight: 200
+}
+
+.about-rating {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px
+}
+
+.total-ratings {
+    font-size: 12px
+}
+
+.bg-custom {
+    background-color: #b7dd29 !important
+}
+
+.progress {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.skills {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+
+/* span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+} */

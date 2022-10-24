@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark hvr-glow ">
+
+
+
+    <div class="container-fluid">
+
+
+
+        <a class="navbar-brand  hvr-wobble-horizontal  " routerLink="/">PROFILE</a>
+        <button (click)="changShow()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" [class.show]='isOpen' id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active hvr-sweep-to-right " aria-current="page" routerLink="ProjectsComponent" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-sweep-to-left " routerLink="SitesComponent" href="#sites" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>SITES</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" routerLink="">CONTACT US</a>
+                </li> -->
+
+
+            </ul>
+            <!-- <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" placeholder="Search Project/sites">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+        </div>
+    </div>
+</nav>

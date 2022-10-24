@@ -1,0 +1,42 @@
+@import url("../../../assets/hover-min.css");
+.home {
+    height: 100%;
+    background-image: url(../../../assets/pexels-aleksey-kuprikov-3493777.jpg );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 50%;
+    outline: 2px solid;
+    outline-offset: 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 130px;
+}
+
+.home h3,
+p {
+    color: white;
+    opacity: 0.8;
+}
+
+.home h3 {
+    margin-top: 20px
+}
+
+.home i {
+    color: #ddd;
+    margin: 5px;
+}
+
+.home i:hover {
+    color: #cadae2;
+}

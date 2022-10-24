@@ -1,0 +1,38 @@
+.sites {
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    margin: 30px;
+    color: #b43737;
+    /* position: static; */
+}
+
+.sites-follow {
+    margin: 30px;
+}
+
+.sites-follow a {
+    text-decoration: none;
+}
+
+.sites-follow ul {
+    list-style-type: none;
+    float: left;
+}
+
+.sites-follow ul li {
+    text-align: left;
+}
+
+ul {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
